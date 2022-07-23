@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STL viewer</title>
+    </head>
+
+    <body>
+        <div id="stl_cont" style="width:500px;height:500px;margin:0 auto;"></div>
+
+        <script src="http://cloud1.tri-di.com/stl_viewer/stl_viewer.min.js"></script>
+        <script>
+            var stl_viewer=new StlViewer
+            (
+                document.getElementById("stl_cont"),
+                {
+                    models:
+                    [
+                        {filename:"cropped_result.stl"}
+                    ]
+                }
+            );
+        </script>
+
+    </body>
+</html>
