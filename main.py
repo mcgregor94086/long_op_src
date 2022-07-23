@@ -36,6 +36,7 @@ from upload_obj_and_stl import upload_obj_and_stl
 # import pdb
 # pdb.set_trace()
 
+# TODO: add code for detecting if local git repsitory is up to date
 
 def main():
     scan_disabled_state = True
